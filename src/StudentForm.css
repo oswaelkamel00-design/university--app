@@ -1,0 +1,73 @@
+.student-form {
+  background-color: #1a1a2e; 
+  border: 1px solid #4169E1; 
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(65, 105, 225, 0.2);
+  padding: 24px;
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #e0e0e0;
+}
+
+.student-form h2 {
+  color: #4169E1;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.student-form label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+.student-form input, 
+.student-form select {
+  padding: 12px;
+  background-color: #16213e; 
+  border: 1px solid #2c3e50;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #ffffff;
+  box-sizing: border-box;
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student-form input:focus, 
+.student-form select:focus {
+  border-color: #4169E1;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.3);
+}
+
+.student-form .photo-preview {
+  max-width: 100px;
+  border-radius: 6px;
+  margin-top: 8px;
+  border: 2px solid #4169E1;
+}
+
+.btn-submit {
+  background-color: #4169E1; 
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn-submit:hover {
+  background-color: #294ab6; 
+}
+
+.btn-submit:active {
+  transform: scale(0.95);
+}

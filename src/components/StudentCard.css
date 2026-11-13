@@ -1,0 +1,117 @@
+.card {
+  background-color: #1e293b; 
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(65, 105, 225, 0.2); 
+}
+
+.pho {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4169E1;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  color: #4169E1;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.student-info {
+  text-align: left;
+  margin-bottom: 15px;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.student-info strong {
+  color: #94a3b8;
+}
+
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.card-actions button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+}
+
+.card-actions button:hover {
+  opacity: 0.85;
+}
+
+.btn-contact {
+  background-color: #4169E1; 
+}
+.btn-contact :hover{
+  background-color: #07184e;
+}
+.btn-modify {
+  background-color: #0ea5e9; 
+}
+.btn-modify :hover{
+  background-color: #2846a7;
+}
+.btn-delete {
+  background-color: #ef4444; 
+}
+.btn-delete :hover{
+  background-color: #6b1414;
+}
+
+.btn-affiche {
+  background-color: #16740b; 
+}
+.btn-affiche :hover{
+  background-color: #194814;
+}
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+.edit-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  
+}
+.btn-save {
+  background-color: #2846a7;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-cancel {
+  background-color: #4b90cd;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
